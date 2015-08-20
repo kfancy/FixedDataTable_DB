@@ -1,0 +1,18 @@
+{
+  "name": "FixedDataTable_DB",
+  "version": "0.0.1",
+  "description": "Simple add-on tools for FixedDataTable to allow better paths into nested variables, render callbacks, etc",
+  "main": "FixedDataTable_DB.js",
+  "keywords": [ "fixedDataTable" ],
+  "author": "Kent Steiner",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/kfancy/FixedDataTable_DB"
+  },
+  "license": "BSD",
+  "dependencies": {
+    "promise": "~7.0.3",
+    "request": "~2.58.0",
+    "underscore": "~1.8.3"
+  }
+}
