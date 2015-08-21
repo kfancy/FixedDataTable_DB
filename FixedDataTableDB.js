@@ -28,6 +28,8 @@ var FixedDataTableDB = function() {
 	return args[0];
 }
 
+FixedDataTableDB.muDB = muDB; // use outside of FDD
+
 FixedDataTableDB.objectify = function() {
 	return {
 		cellData: arguments[0],
